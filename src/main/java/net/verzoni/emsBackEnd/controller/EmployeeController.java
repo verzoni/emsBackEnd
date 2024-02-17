@@ -16,6 +16,8 @@ public class EmployeeController {
 
     private EmployeeService employeeService;
 
+    // endPoint http://localhost:8080/api/smployees
+
     // Build Add Employee REST API
     @PostMapping
     // l'annotation @RequestBody riceve un json e lo mette nel dto
